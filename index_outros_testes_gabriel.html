@@ -3,25 +3,62 @@
 <head>
 	<meta charset="utf-8">
 	<style>
-		* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+		
+		section {
 
-		p {text-align: justify;}
-		h1{ text-align: center; }
-		table,main {
-    min-height: 100vh;
+		float: right;
+		width: 60%; 
+		max-height: 100%;
+
 }
-	body { background-color: dodgerblue; align-content: stretch; }
+		img{
+
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+
+		aside, nav {
+
+		float: left;
+		width: 25%;
+		margin: 20px;
+		width: 35%;
+		}
+
+
+		p {text-align: justify;
+			margin: 20px;
+			margin-top: 30px;
+		}
+		h1, h2, h3{ text-align: center;
+		margin-top: 35px;
+		margin-bottom: 25px; }
+		
+		body { background-color: dodgerblue;
+			 align-content: stretch; 
+			 min-height: 100%;
+				
+		}
+		footer {
+		display: block;
+		width: 100%; 
+		height: 150px;
+	    object-position: bottom;
+	 	background-color: white;
+	 	position: absolute;
+	 	margin-top: 4200px;
+	 	box-sizing: border;
+	    }
+
+
+
 	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Turismo em Buenos Aires</title>
 	</head>
 	<body>
 		<main>
-			<div style="display: block; width: 65%; float: left;">
+			<div style="display: block; width: 70%; float: left;">
 
 				<h1 id="intro"> A Bela Argentina </h1>
 
@@ -52,27 +89,64 @@
 			</main>
 			
 			<section>
-			<table style="display: contents; width: 100%;">
-				<tr><h1>Conheça um pouco de Buenos Aires!</h1></tr>
-				<th><video  width="100%"  src=primeiro.mp4 controls></video></th>
+			<table >
+				<h1>Conheça um pouco de Buenos Aires!</h1>
+				<video  width="100%" src=primeiro.mp4 controls></video>
+
+			
+				<video  width="100%"  src=segundo.mp4 controls></video>
 			
 
 			
-				<th><video  width="100%" src=segundo.mp4 controls></video></th>
-			
-
-			
-				<th><video  width="100%" src=terceiro.mp4 controls></video></th>
+				<video  width="100%"  src=terceiro.mp4 controls></video>
 			</table>
-		</section>
+			</section>
+		<aside>
+			 <ul>     
+		        <h2>Lista de Pontos que devem ser visitados:</h2>    
+		        <li>Obelisco</li>  
+		        <li>Torre monumental</li> 
+		        <li>Casa Rosada / Plaza de Mayo</li> 
+		        <li>Teatro Colon</li> 
+		        <li>Jardin Japones</li> 
+		        <li>Jardim Botánico</li> 
+		        <li>Paseo El Rosedal</li> 
+		        <li>Eco parque</li> 
+		        <li>Planetario Galileo Galilei</li>    
+		        <li>El caminito</li> 
+		        <li>Abasto Shopping</li>    
+		        <li>Paseo de la Gloria</li> 
+		        <li>Reserva ecológica Costanera Sur</li>    
+		        <li>El Zanjon de Granados </li> 
+		        <li>Casa Minima</li>
+		        <li>Livraria El Ateneo</li>
+		        <li>Centro Cultural Borges</li>
+		    </br>
+		          
+    		</ul> 
+
+
+
+		</aside>
+		<nav>
+			<p>
+			   <a href="#intro"> Voltar a Introdução </a> </br>
+		       <a href="#Turismo"> Voltar a Turismo </a>
+		       <br>
+		       <br>
+		       <br>
+		       <br>
+		    </p>
+		</nav>
+		<footer>
+			
+					<h3>DESENVOLVIDO POR:</h3>
+					<p>Gabriel Formoso<br>
+						Thiago Amaru<br>
+						João Victor Chulte</p><br>
+				
+			
+		</footer>
 	</body>
 
-	<footer>
-
-
-		<div style="display: block; width: 65%; float: left;">
-			<a href="#intro"> Voltar a Introdução </a>
-		</div>
-	</footer>
-
-</html>
+	</html>
