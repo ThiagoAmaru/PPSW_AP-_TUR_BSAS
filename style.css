@@ -1,0 +1,63 @@
+section {
+    float: right;
+    width: 60%;
+    max-height: 100%;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+aside,
+nav {
+    float: left;
+    width: 25%;
+    margin: 20px;
+    width: 35%;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+body {
+    background-color: dodgerblue;
+    align-content: stretch;
+    min-height: 100%;
+}
+
+footer {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    padding: 20, 0, 20, 0;
+    margin: 5, 5;
+    background-color: white;
+}
+
+.videos {
+    display: flex;
+    max-width: 95%;
+}
+
+video {
+    max-width: 30%;
+    padding: 2%;
+    margin: 5, 10, 5, 10;
+    border: 1;
+}
+
+h5 {
+    text-align: left;
+}
