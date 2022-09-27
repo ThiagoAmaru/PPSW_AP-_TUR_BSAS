@@ -5,13 +5,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
-	</link>
 	<title>Turismo em Buenos Aires</title>
 </head>
 <header>
-	<img src="bandeira.jpeg" width="100%" height="300px">
+	<img id="logo" src="bandeira.jpeg" alt="logo">
 	<h1 id="titulo"> O Coração da Argentina </h1>
-
 	<nav>
 		<ul id="navegacao">
 			<li><a href="#intro"> A Bela Argentina </a></li>
@@ -21,8 +19,8 @@
 		</ul>
 	</nav>
 </header>
-<body>
-	<main>
+
+	<article>
 		<div style="display: block; width: 70%; float: left;">
 			<h2>A Bela Buenos Aires</h2>
 			<p>Situada no coração da Argentina, Buenos Aires é uma capital cosmopolita e vibrante que atrai turistas de
@@ -59,24 +57,26 @@
 				confeitaria porteña, recheado com o maravilhoso doce de leite argentino?</p>
 		</div>
 		<div style="display: block; width: 30%; float: right;">
-			<img src="https://aguiarbuenosaires.com/wp-content/uploads/2018/07/congresso-argentina.jpg" width="100%"
+			<img class="midias" src="https://aguiarbuenosaires.com/wp-content/uploads/2018/07/congresso-argentina.jpg"
 				title="Congresso Nacional Argentino" alt="Congresso Nacional Argentino">
 			<hr>
-			<img src="http://teatrocolon.org.ar/sites/default/files/styles/d8/public/2019-10/teatro-colon_exterior_001.jpg"
-				width="100%" title="teatro">
+			<img class="midias"
+				src="http://teatrocolon.org.ar/sites/default/files/styles/d8/public/2019-10/teatro-colon_exterior_001.jpg"
+				title="teatro">
 		</div>
-	</main>
+	</article>
 	<section>
-		<h1 id="conhecendo">Conheça um pouco de Buenos Aires!</h1>
+		<h2 id="conhecendo">Conheça um pouco de Buenos Aires!</h2>
 		<div class="videos">
-			<video width="100%" src=segundo.mp4 controls></video>
-			<video width="100%" src=primeiro.mp4 controls></video>
-			<video width="100%" src=terceiro.mp4 controls></video>
+			<video class="midias" src=segundo.mp4 controls></video>
+			<video class="midias" src=primeiro.mp4 controls></video>
+			<video class="midias" src=terceiro.mp4 controls></video>
 		</div>
 	</section>
+
 	<aside>
+		<h2>Lista de Pontos que devem ser visitados:</h2>
 		<ul id="pontos">
-			<h2>Lista de Pontos que devem ser visitados:</h2>
 			<li>Obelisco</li>
 			<li>Torre monumental</li>
 			<li>Casa Rosada / Plaza de Mayo</li>
@@ -96,26 +96,19 @@
 			<li>Centro Cultural Borges</li>
 		</ul>
 	</aside>
-</body>
+
 <footer>
-	<h3>Obrigado por visitar nossa página web!</h3>
-	<h4>© Copyright, Alfágeis, 2022</h4>
 	<h5>DESENVOLVIDO POR:</h5>
-	<p>Gabriel Formoso<br/>
-		Thiago Oliveira<br/>
-		João Victor Chulte</p>
-		<form> 
-			<h3>Para mais informações deixe seu contato</h3><br/>
-		nome <input name="nome"/>
-		email <input name="email"/>
-		<button name="enviar">enviar</button>
-		</form>
-	
+	<p class="desen">Gabriel Formoso<br>
+		João Victor Chulte<br>
+		Thiago Oliveira</p>
 	<nav>
 		<p>
-			<a id="retorno" href="#intro"> Voltar a Introdução </a>
+			<a href="#intro">Voltar a Introdução</a>
 		</p>
 	</nav>
+	<h3>Obrigado por visitar nossa página web!</h3>
+	<h4>© Copyright, Alfágeis, 2022</h4>
 </footer>
 
 </html>
